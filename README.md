@@ -40,3 +40,59 @@ quantum-positioning-system/
 └── examples/
     ├── simple_qps_example.py
     └── advanced_qps_example.py
+```
+
+### Components
+
+- **qps/core.py**: The primary logic of the QPS framework, coordinating between the quantum modules.
+- **qps/entanglement.py**: Manages quantum entangled pairs using Qiskit and simulates quantum teleportation.
+- **qps/quantum_frequency_mapping.py**: Implements the quantum frequency mapping mechanism.
+- **qps/string_interactions.py**: Simulates and calculates quantum string interactions that affect positioning.
+- **qps/higher_dimensional_fields.py**: Simulates the interactions between quantum strings and higher-dimensional fields, such as the Higgs field.
+- **qps/classical_positioning.py**: Provides classical positioning as a fallback option or for hybrid systems.
+- **tests/**: Unit tests for each module, ensuring functionality and accuracy.
+- **examples/**: Sample scripts showcasing how to use the Quantum Positioning System in simple and advanced scenarios.
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/kiruthikpurpose/QuantumPositioningSystem.git
+    cd QuantumPositioningSystem
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the examples:
+    ```bash
+    python examples/simple_qps_example.py
+    ```
+
+### Usage
+
+- Create quantum entanglements using `qps/entanglement.py`.
+- Map quantum frequencies via `qps/quantum_frequency_mapping.py`.
+- Simulate string interactions and higher-dimensional effects using the appropriate modules.
+- Combine the quantum positioning system with classical positioning where necessary.
+
+### Future Work
+
+- Refine quantum frequency mapping for increased precision.
+- Improve higher-dimensional field simulations.
+- Integrate additional quantum frameworks for more advanced use cases.
+
+---
+
+### Disclaimer
+
+This project is conceptual and serves as a demonstration of theoretical quantum mechanics applied to positioning systems. More work is needed to create real-world applications, and the code provided here is for educational purposes only.
+
+---
+
+### Acknowledgments
+
+- The Qiskit framework by IBM was used for quantum simulations.
+- Conceptualized and proposed by **Kiruthik**.
