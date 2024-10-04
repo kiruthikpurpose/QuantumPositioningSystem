@@ -43,14 +43,15 @@ quantum-positioning-system/
     └── advanced_qps_example.py
 ```
 
+
 ### Components
 
-- **qps/core.py**: The primary logic of the QPS framework, coordinating between the quantum modules.
-- **qps/entanglement.py**: Manages quantum entangled pairs using Qiskit and simulates quantum teleportation.
-- **qps/quantum_frequency_mapping.py**: Implements the quantum frequency mapping mechanism.
-- **qps/string_interactions.py**: Simulates and calculates quantum string interactions that affect positioning.
-- **qps/higher_dimensional_fields.py**: Simulates the interactions between quantum strings and higher-dimensional fields, such as the Higgs field.
-- **qps/classical_positioning.py**: Provides classical positioning as a fallback option or for hybrid systems.
+- **QPS/core.py**: The primary logic of the QPS framework, coordinating between the quantum modules.
+- **QPS/entanglement.py**: Manages quantum entangled pairs using Qiskit and simulates quantum teleportation.
+- **QPS/quantum_frequency_mapping.py**: Implements the quantum frequency mapping mechanism.
+- **QPS/string_interactions.py**: Simulates and calculates quantum string interactions that affect positioning.
+- **QPS/higher_dimensional_fields.py**: Simulates the interactions between quantum strings and higher-dimensional fields, such as the Higgs field.
+- **QPS/classical_positioning.py**: Provides classical positioning as a fallback option or for hybrid systems.
 - **tests/**: Unit tests for each module, ensuring functionality and accuracy.
 - **examples/**: Sample scripts showcasing how to use the Quantum Positioning System in simple and advanced scenarios.
 
@@ -74,8 +75,8 @@ quantum-positioning-system/
 
 ### Usage
 
-- Create quantum entanglements using `qps/entanglement.py`.
-- Map quantum frequencies via `qps/quantum_frequency_mapping.py`.
+- Create quantum entanglements using `QPS/entanglement.py`.
+- Map quantum frequencies via `QPS/quantum_frequency_mapping.py`.
 - Simulate string interactions and higher-dimensional effects using the appropriate modules.
 - Combine the quantum positioning system with classical positioning where necessary.
 
