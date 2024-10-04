@@ -16,6 +16,7 @@ quantum-positioning-system/
 │
 ├── README.md
 ├── LICENSE
+├── CONTRIBUTING.md
 ├── .gitignore
 ├── requirements.txt
 │
